@@ -1,1 +1,1 @@
-# kcci.project
+# Intel Edge AI SW Developer Academy
