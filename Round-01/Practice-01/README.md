@@ -19,9 +19,8 @@
 
 ### Team 04 : Project name
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
-
+* 간략한 Project 소개: 실시간 표정에 따른 배경색 제어
+* [https://github.com/JongChanHa/Intel_AI_project01](https://github.com/JongChanHa/Intel_AI_project01)
 ### Team 05 : Project name
 
 * 간략한 Project 소개
