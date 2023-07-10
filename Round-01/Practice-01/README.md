@@ -61,4 +61,9 @@
 * 얼굴과 번호판 모자이크
 * [https://github.com/kithousand/kcci.intel.ai.project.git](https://github.com/kithousand/kcci.intel.ai.project.git)
 
+### Team 11 : 실시간 객체 정보 제공
+
+* 실시간으로 객체를 인식하고 객체의 정보를 검색해 시각화합니다.
+* [https://github.com/pvrkjihoon/object_detect-search_info](https://github.com/pvrkjihoon/object_detect-search_info)
+
 ## Appendix
