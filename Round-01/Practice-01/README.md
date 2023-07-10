@@ -36,7 +36,7 @@
 ### Team 07 : Project name
 
 * 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* [https://github.com/isehyeon258/kcci_mini_project_7](https://github.com/isehyeon258/kcci_mini_project_7)
 
 ### Team 08 : Project name
 
