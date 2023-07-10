@@ -55,4 +55,10 @@
 
 
 
+
+### Team 12 : Project name
+
+* 얼굴과 번호판 모자이크
+* [https://github.com/kithousand/kcci.intel.ai.project.git](https://github.com/kithousand/kcci.intel.ai.project.git)
+
 ## Appendix
