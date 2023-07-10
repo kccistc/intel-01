@@ -40,8 +40,8 @@
 
 ### Team 08 : Project name
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* AI로 만드는 인생네컷
+* [https://github.com/JHaeYoung/kcci.intel.ai.project1](https://github.com/JHaeYoung/kcci.intel.ai.project1)
 
 ### Team 09 : 너 지금 뭐하니?
 
