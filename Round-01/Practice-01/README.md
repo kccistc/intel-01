@@ -14,7 +14,7 @@
 
 ### Team 03 : Project name
 
-* Object detection + Speech to Text
+* 음성을 통한 DETECTED OBJECT의 LABEL 변경
 * [https://github.com/koy1226/AI_Study/tree/master/Speech2Text_and_ObjectDetection](https://github.com/koy1226/AI_Study/tree/master/Speech2Text_and_ObjectDetection)
 
 ### Team 04 : Project name
