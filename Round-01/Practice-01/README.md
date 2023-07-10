@@ -14,7 +14,7 @@
 
 ### Team 03 : Project name
 
-* Object detection and Speech to Text
+* Object detection + Speech to Text
 * [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
 ### Team 04 : Project name
