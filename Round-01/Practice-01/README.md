@@ -14,7 +14,7 @@
 
 ### Team 03 : Project name
 
-* 간략한 Project 소개
+* Merge model of Object detection and Speech to Text
 * [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
 ### Team 04 : Project name
