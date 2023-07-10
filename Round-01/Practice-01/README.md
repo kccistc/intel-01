@@ -27,10 +27,10 @@
 * 간략한 Project 소개
 * [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
-### Team 06 : Project name
+### Team 06 : Eyes Speak
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* 실시간 단어 및 문장 번역 / 번역 결과 음성 피드백 서비스
+* [https://github.com/vesper0/eyes.speak](https://github.com/vesper0/eyes.speak)
 
 ### Team 07 : Project name
 
