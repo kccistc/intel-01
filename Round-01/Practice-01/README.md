@@ -10,7 +10,7 @@
 ### Team 02 : Project name
 
 * 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* [https://github.com/jangyj405/OpenVINO_NeuralStyleTransferWithBGRemover](https://github.com/jangyj405/OpenVINO_NeuralStyleTransferWithBGRemover)
 
 ### Team 03 : Project name
 
