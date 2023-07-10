@@ -7,10 +7,10 @@
 * 간략한 Project 소개
 * [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
-### Team 02 : Project name
+### Team 02 : OpenVINO_NeuralStyleTransferWithBGRemover
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* 배경 제거 후 스타일 변경
+* [https://github.com/jangyj405/OpenVINO_NeuralStyleTransferWithBGRemover](https://github.com/jangyj405/OpenVINO_NeuralStyleTransferWithBGRemover)
 
 ### Team 03 : Project name
 
