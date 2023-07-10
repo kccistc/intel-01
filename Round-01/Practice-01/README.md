@@ -15,7 +15,7 @@
 ### Team 03 : Project name
 
 * Object detection + Speech to Text
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* [https://github.com/koy1226/AI_Study/tree/master/Speech2Text_and_ObjectDetection](https://github.com/koy1226/AI_Study/tree/master/Speech2Text_and_ObjectDetection)
 
 ### Team 04 : Project name
 
