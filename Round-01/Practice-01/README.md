@@ -46,9 +46,11 @@
 * 교수님의 접근을 파악해서 딴짓을 잘하기
 * [Team 09 Repository](https://github.com/MoonByungBok/Intel.AI.TeamProject)
 
-### Team 10 : Project name
+### Team 10 : AI 출석체크
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* OpenVINO의 얼굴인식과 글자인식을 활용한 AI 출석체크
+* [https://github.com/TylerWhLab/FaceAndTextRecog.git](https://github.com/TylerWhLab/FaceAndTextRecog.git)
+
+
 
 ## Appendix
