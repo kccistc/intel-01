@@ -21,12 +21,12 @@
 
 ### Team 04 : Project name
 
-* 간략한 Project 소개: 실시간 표정에 따른 배경색 제어
+* 실시간 표정에 따른 배경색 제어
 * [https://github.com/JongChanHa/Intel_AI_project01](https://github.com/JongChanHa/Intel_AI_project01)
-### Team 05 : Voice-Guidance-Parking-Finder
+### Team 05 : Project name
 
-* 주차장의 남은공간을 detecting 하여 주차장의 남은공간을 음성으로 알려주는 역할.
-* [https://github.com/97JongYunLee/Voice-Guidance-Parking-Finder](https://github.com/97JongYunLee/Voice-Guidance-Parking-Finder)
+* 간략한 Project 소개
+* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
 ### Team 06 : Eyes Speak
 
@@ -60,10 +60,5 @@
 
 * 얼굴과 번호판 모자이크
 * [https://github.com/kithousand/kcci.intel.ai.project.git](https://github.com/kithousand/kcci.intel.ai.project.git)
-
-### Team 11 : 실시간 객체 정보 제공
-
-* 실시간으로 객체를 인식하고 객체의 정보를 검색해 시각화합니다.
-* [https://github.com/pvrkjihoon/object_detect-search_info](https://github.com/pvrkjihoon/object_detect-search_info)
 
 ## Appendix
