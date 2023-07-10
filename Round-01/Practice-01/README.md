@@ -41,10 +41,10 @@
 * 간략한 Project 소개
 * [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
 
-### Team 09 : Project name
+### Team 09 : 너 지금 뭐하니?
 
-* 간략한 Project 소개
-* [https://github.com/zzz/yyy/zzz](https://github.com/zzz/yyy/zzz)
+* 교수님의 접근을 파악해서 딴짓을 잘하기
+* [https://github.com/MoonByungBok/Intel.AI.TeamProject](https://github.com/MoonByungBok/Intel.AI.TeamProject)
 
 ### Team 10 : Project name
 
