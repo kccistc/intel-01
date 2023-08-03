@@ -27,6 +27,8 @@ source .otx/bin/activate
 ```
 
 ```bash
+pip install wheel setuptools
+
 # install command for torch==1.13.1 for CUDA 11.7:
 pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install otx[full]
