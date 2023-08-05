@@ -40,10 +40,22 @@ pip install wheel setuptools
 
 # install command for torch==1.13.1 for CUDA 11.7:
 pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu117
-pip install otx[full]==1.4.0
+pip install otx[full]
 ```
 
-## Dataset links
+## OpenVINO hello_classification
+```
+https://raw.githubusercontent.com/openvinotoolkit/openvino/master/samples/python/hello_classification/hello_classification.py
+```
+
+## Dataset
+
+A command combination that shows number of files under given directory.
+```bash
+find ./ -maxdepth 2 –type d | while read –r dir; do printf “%s:\t” “$dir”; find “$dir” –type f | wc –l; done
+```
+
+### Links
 * Flowers:
     http://download.tensorflow.org/example_images/flower_photos.tgz
 
