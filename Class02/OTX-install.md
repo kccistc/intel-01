@@ -3,7 +3,7 @@
 ## Install dependencies
 ```
 sudo apt update
-sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev gcc-multilib dkms
+sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev gcc-multilib dkms mesa-utils
 sudo apt upgrade
 ```
 
@@ -11,7 +11,7 @@ sudo apt upgrade
 Note, link below is for Ubuntu20.04. For other versoins please refer [CUDA Toolkit 11.7 Downloads](https://developer.nvidia.com/cuda-11-7-0-download-archive)
 ```bash
 cd ~/Downloads/
-wget wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda_11.7.0_515.43.04_linux.run
+wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda_11.7.0_515.43.04_linux.run
 sudo sh cuda_11.7.0_515.43.04_linux.run
 ```
 
