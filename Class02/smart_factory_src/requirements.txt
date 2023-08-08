@@ -1,8 +1,6 @@
 opencv-python
 opencv-contrib-python
-numpy==1.18
 scikit-build
 pillow
 pyserial
 pyqt5
-openvino==2022.1
