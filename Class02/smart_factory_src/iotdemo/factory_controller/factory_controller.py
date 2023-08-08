@@ -239,7 +239,7 @@ class FactoryController:
         if self.__device_name == 'ft232':
             self.__set(PyFt232.PKT_CMD_START, PyFt232.PKT_CMD_START_STOP)
         else:
-            self.red = False
+            self.red = True
             self.green = False
             self.conveyor = False
 

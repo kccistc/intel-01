@@ -24,4 +24,3 @@ with FactoryController('/dev/ttyACM0') as ctrl:
     ctrl.push_actuator(2)
 
     print("end")
-    ctrl.close()
