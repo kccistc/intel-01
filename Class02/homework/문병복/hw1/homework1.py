@@ -23,8 +23,10 @@ with FactoryController('/dev/ttyACM1') as ctrl:
             print("conveyor")
         elif answer == '5':
             ctrl.push_actuator(1)
+            print("push_actuator(1)")
         elif answer == '6':
             ctrl.push_actuator(2)
+            print("push_actuator(2)")
 
     ctrl.system_stop()
     #time.sleep(1)
