@@ -13,19 +13,19 @@ with FactoryController('/dev/ttyACM0') as ctrl:
             ctrl.system_stop()
 
         elif eventint == 3:
-            ctrl.__led(2,True)
-            if ctrl.__led(2,True):
-                ctrl.__led(2,False)
+            ctrl.red=True
+            if ctrl.red==True:
+                ctrl.red=False
 
         elif eventint == 4:
-            ctrl.__led(3,True)
-            if ctrl.__led(3,True):
-                ctrl.__led(3,False)
+            ctrl.orange=True
+            if ctrl.orange==True:
+                ctrl.orange=False
 
         elif eventint == 5:
-            ctrl.__led(4,True)
-            if ctrl.__led(4,True):
-                ctrl.__led(4,False)
+            ctrl.green=True
+            if ctrl.green==True:
+                ctrl.green=False
 
         elif eventint == 6:
             
