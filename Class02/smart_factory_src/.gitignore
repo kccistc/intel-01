@@ -1,0 +1,9 @@
+/build
+/arduino/build
+/dist
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.cprof
+*.cfg

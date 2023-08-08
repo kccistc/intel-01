@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Color Filter</string>
+  </property>
+  <widget class="QWidget" name="layout_root">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>15</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>15</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="layout_control">
+      <item>
+       <widget class="QComboBox" name="combo_source"/>
+      </item>
+      <item>
+       <spacer name="spacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_reset">
+        <property name="text">
+         <string>Reset</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="layout_iteration">
+      <item row="0" column="0">
+       <widget class="QLabel" name="_unuse0">
+        <property name="text">
+         <string>Iteration</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSlider" name="slider_iteration">
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>30</number>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="tickPosition">
+         <enum>QSlider::TicksBothSides</enum>
+        </property>
+        <property name="tickInterval">
+         <number>5</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="ColorSlider" name="colorslider" native="true"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="_unused1">
+      <item>
+       <widget class="QLabel" name="_unuesd2">
+        <property name="text">
+         <string>Label</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="line_label"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_add">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_load">
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_save">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="ConfigTable" name="table">
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>Label</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Iteration</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string/>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ConfigTable</class>
+   <extends>QTableWidget</extends>
+   <header>.ConfigTable</header>
+  </customwidget>
+  <customwidget>
+   <class>ColorSlider</class>
+   <extends>QWidget</extends>
+   <header>.ColorSlider</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>combo_source</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>combo_source</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_source(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>174</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_load</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>load_config_file()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>649</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_save</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>save_config_file()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>693</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_add</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>add_to_config()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>416</x>
+     <y>69</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>on_reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>515</x>
+     <y>3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider_iteration</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_iteration(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>10</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>set_source(int)</slot>
+  <slot>set_iteration(int)</slot>
+  <slot>action_triggered(QAction*)</slot>
+  <slot>set_debug(bool)</slot>
+  <slot>load_config_file()</slot>
+  <slot>save_config_file()</slot>
+  <slot>add_to_config()</slot>
+  <slot>on_reset()</slot>
+ </slots>
+</ui>
