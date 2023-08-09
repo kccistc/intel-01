@@ -16,26 +16,26 @@
 ### 제출현황
 | 이름 (디렉토리)           | HW#1 | HW#2 | HW#3 | 최종 파일 | Reviewer |
 |------------------------|------|------|------|----------|----------|
-| 조윤재 (24_yunjae_cho) | O | ? | ? | ? | litcoder |
-| 천동민 (CDM)            | O | ? | ? | ? | litcoder |
+| 조윤재 (24_yunjae_cho)  | O | O | ? | ? | litcoder |
+| 천동민 (CDM)            | O | O | ? | ? | litcoder |
 | 김동성 (dongsungkim)    | O | ? | ? | ? | litcoder |
-| 장영주 (jangyoungjoo)   | O | ? | ? | ? | litcoder |
-| 유요섭                  | X | ? | ? | ? | litcoder |
-| 김지원                  | X | ? | ? | ? | litcoder |
-| 이종윤 (jongyun)        | O | ? | ? | ? | litcoder |
-| 엄기천 (kithousand)     | O | ? | ? | ? | litcoder |
+| 장영주 (jangyoungjoo)   | O | O | ? | ? | litcoder |
+| 유요섭                  | O | ? | ? | ? | litcoder |
+| 김지원 (jiwon)          | X | ? | ? | ? | litcoder |
+| 이종윤 (jongyun)        | O | O | ? | ? | litcoder |
+| 엄기천 (kithousand)     | O | O | ? | ? | litcoder |
 | 임사랑 (Limsarang)      | O | ? | ? | ? | litcoder |
-| 이세현 (Ish)            | O | ? | ? | ? | litcoder |
-| 이정은 (leejeongeun)    | ? | ? | ? | ? | litcoder |
-| 권오윤                  | O | ? | ? | ? | litcoder |
+| 이세현 (Ish)            | O | O | ? | ? | litcoder |
+| 이정은 (leejeongeun)    | X | ? | ? | ? | litcoder |
+| 권오윤                  | O | O | ? | ? | litcoder |
 | 문병복                  | O | ? | ? | ? | JerryJLee |
 | 이원제                  | O | ? | ? | ? | JerryJLee |
 | 한재욱                  | O | ? | ? | ? | JerryJLee |
-| 문상원                  | ? | ? | ? | ? | JerryJLee |
-| 하종찬                  | ? | ? | ? | ? | JerryJLee |
-| 여승범                  | ? | ? | ? | ? | JerryJLee |
-| 임재환 (excelsior19999) | ? | ? | ? | ? | JerryJLee |
-| 정해영                  | ? | ? | ? | ? | JerryJLee |
+| 문상원                  | X | ? | ? | ? | JerryJLee |
+| 하종찬                  | X | ? | ? | ? | JerryJLee |
+| 유승범                  | X | ? | ? | ? | JerryJLee |
+| 임재환 (excelsior19999) | X | ? | ? | ? | JerryJLee |
+| 정해영                  | X | ? | ? | ? | JerryJLee |
 | 김준호 (jun-ho-kim)     | O | ? | ? | ? | JerryJLee |
 | 이송이                  | X | ? | ? | ? | JerryJLee |
 | 박지훈                  | X | ? | ? | ? | JerryJLee |
