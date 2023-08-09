@@ -66,16 +66,16 @@ def thread_cam2(q):
         if frame is None:
             break
 
-        # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
+        # TODO: HW2 Enqueue "VIDEO:Cam2 live", frame info
 
         # TODO: Detect motion
 
-        # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
+        # TODO: Enqueue "VIDEO:Cam2 detected", detected info.
 
         # TODO: Detect color
 
         # TODO: Compute ratio
-        print(f"{name}: {ratio:.2f}%")
+        #print(f"{name}: {ratio:.2f}%")
 
         # TODO: Enqueue to handle actuator 2
 
