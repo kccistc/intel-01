@@ -20,7 +20,7 @@ def thread_cam1(q):
 
     # TODO: Load and initialize OpenVINO
 
-    # TODO: Open video clips or cameras
+    # TODO: HW2 Open video clip resources/factory/conveyor.mp4 instead of camera device.
 
     while not FORCE_STOP:
         sleep(0.03)
@@ -28,11 +28,11 @@ def thread_cam1(q):
         if frame is None:
             break
 
-        # TODO: Enqueue "VIDEO:Cam1 live", frame info
+        # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
 
         # TODO: Motion detect
 
-        # TODO: Enqueue "VIDEO:Cam1 detected", detected info
+        # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
 
         # abnormal detect
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -58,7 +58,7 @@ def thread_cam2(q):
 
     # TODO: ColorDetector
 
-    # TODO: video or camera open
+    # TODO: HW2 Open "resources/factory/conveyor.mp4" video clip
 
     while not FORCE_STOP:
         sleep(0.03)
@@ -66,11 +66,11 @@ def thread_cam2(q):
         if frame is None:
             break
 
-        # TODO: Enqueue "VIDEO:Cam1 live", frame info
+        # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
 
         # TODO: Detect motion
 
-        # TODO: Enqueue "VIDEO:Cam1 detected", detected info
+        # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
 
         # TODO: Detect color
 
@@ -104,20 +104,21 @@ def main():
                         help="Arduino port")
     args = parser.parse_args()
 
-    # TODO: Factory Control event queue
+    # TODO: HW2 Create a Queue
 
-    # TODO: Camera processing threads
+    # TODO: HW2 Create thread_cam1 and thread_cam2 threads and start them.
 
     with FactoryController(args.device) as ctrl:
         while not FORCE_STOP:
             if cv2.waitKey(10) & 0xff == ord('q'):
                 break
 
+            # TODO: HW2 get an item from the queue. You might need to properly handle exceptions.
             # de-queue name and data
 
-            # TODO: show videos
+            # TODO: HW2 show videos with titles of 'Cam1 live' and 'Cam2 live' respectively.
 
-            # TODO: control actuator
+            # TODO: Control actuator, name == 'PUSH'
 
             if name == 'DONE':
                 FORCE_STOP = True
