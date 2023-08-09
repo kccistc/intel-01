@@ -1,7 +1,6 @@
 from iotdemo import FactoryController
 import time
 
-
 with FactoryController('/dev/ttyACM0') as ctrl:
     time.sleep(2)
     ctrl.red = False # pin 2 on
@@ -46,3 +45,4 @@ with FactoryController('/dev/ttyACM0') as ctrl:
     print("push_actuator 2")
     time.sleep(2)
     print("end")
+
