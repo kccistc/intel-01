@@ -39,7 +39,7 @@
 | 김준호 (jun-ho-kim)     | O | ? | ? | ? | JerryJLee |
 | 이송이                  | X | ? | ? | ? | JerryJLee |
 | 박지훈                  | X | ? | ? | ? | JerryJLee |
-| ?                      | X | ? | ? | ? | JerryJLee |
+| 김정균                  | X | ? | ? | ? | JerryJLee |
 
 
 ## Team project
