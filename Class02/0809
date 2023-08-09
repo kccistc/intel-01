@@ -1,0 +1,39 @@
+git log --oneline
+
+5e211e6 OTX links
+q로 탈출
+
+git status
+
+git checkout -b temp 
+
+git branch
+
+git add .
+
+git commit -m "TEMP"
+
+git show HEAD
+
+git checkout main
+
+git branch 
+
+git reset --hard 5e211
+HEAD의 현재 위치는 5e211e6입니다 OTX links
+
+git fetch upstream
+
+git merge upstream/main
+
+git branch -r
+원격 저장소(remote repository)에 있는 브랜치의 목록을 보여주는 Git 명령어
+
+
+0809 과제
+
+issue - new issue
+
+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
+
+
