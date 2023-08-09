@@ -29,6 +29,7 @@ def thread_cam1(q):
             break
 
         # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
+        q.put({"VIDEO:Cam1 live",frame})
 
         # TODO: Motion detect
 
@@ -67,7 +68,7 @@ def thread_cam2(q):
             break
 
         # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
-
+        q.put({"VIDEO:Cam2 live",frame})
         # TODO: Detect motion
 
         # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
@@ -105,7 +106,7 @@ def main():
     args = parser.parse_args()
 
     # TODO: HW2 Create a Queue
-
+    q= 모종의 방법
     # TODO: HW2 Create thread_cam1 and thread_cam2 threads and start them.
 
     with FactoryController(args.device) as ctrl:
@@ -115,7 +116,7 @@ def main():
 
             # TODO: HW2 get an item from the queue. You might need to properly handle exceptions.
             # de-queue name and data
-
+            data = q.모종의방법()
             # TODO: HW2 show videos with titles of 'Cam1 live' and 'Cam2 live' respectively.
 
             # TODO: Control actuator, name == 'PUSH'
