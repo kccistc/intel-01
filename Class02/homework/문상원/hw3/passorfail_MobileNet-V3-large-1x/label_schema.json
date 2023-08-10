@@ -1,0 +1,54 @@
+{
+    "label_tree": {
+        "type": "tree",
+        "directed": true,
+        "nodes": [
+            "0",
+            "1"
+        ],
+        "edges": []
+    },
+    "label_groups": [
+        {
+            "_id": "64d4a963b76f4a8bc307d7b4",
+            "name": "labels",
+            "label_ids": [
+                "0",
+                "1"
+            ],
+            "relation_type": "EXCLUSIVE"
+        }
+    ],
+    "all_labels": {
+        "0": {
+            "_id": "0",
+            "name": "defect",
+            "color": {
+                "red": 158,
+                "green": 225,
+                "blue": 170,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2023-08-10T09:09:55.126000",
+            "is_empty": false,
+            "is_anomalous": false
+        },
+        "1": {
+            "_id": "1",
+            "name": "pass",
+            "color": {
+                "red": 207,
+                "green": 21,
+                "blue": 18,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2023-08-10T09:09:55.126000",
+            "is_empty": false,
+            "is_anomalous": false
+        }
+    }
+}
