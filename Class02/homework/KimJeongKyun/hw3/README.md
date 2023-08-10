@@ -23,6 +23,7 @@ Smart factory 불량 분류모델 training 결과
 
 
 ## FPS 측정 방법
+```
 Step 1. Initialize OpenVINO Runtime Core
 start_time = time.time()
 
@@ -30,3 +31,4 @@ t = time.time() - start_time
 print(f"=============inferencing time = {t:.5f} 초")
 print(f"FPS = {1/t}")
 return 0
+```
