@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# %%
 import os
 import threading
 from argparse import ArgumentParser
@@ -8,7 +8,7 @@ from time import sleep
 
 import cv2
 import numpy as np
-from openvino.inference_engine import IECore
+#from openvino.inference_engine import IECore
 
 from iotdemo import FactoryController
 
@@ -21,6 +21,9 @@ def thread_cam1(q):
     # TODO: Load and initialize OpenVINO
 
     # TODO: HW2 Open video clip resources/factory/conveyor.mp4 instead of camera device.
+    video_path = 'resources/factory/conveyor.mp4'  # 비디오 파일 경로
+    cap = cv2.VideoCapture(video_path)
+
 
     while not FORCE_STOP:
         sleep(0.03)
@@ -29,7 +32,7 @@ def thread_cam1(q):
             break
 
         # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
-        q.put({"VIDEO:Cam1 live",frame})
+        q.put(("VIDEO:Cam1 live",frame))
 
         # TODO: Motion detect
 
@@ -37,15 +40,15 @@ def thread_cam1(q):
 
         # abnormal detect
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        reshaped = detected[:, :, [2, 1, 0]]
-        np_data = np.moveaxis(reshaped, -1, 0)
-        preprocessed_numpy = [((np_data / 255.0) - 0.5) * 2]
-        batch_tensor = np.stack(preprocessed_numpy, axis=0)
+        # reshaped = detected[:, :, [2, 1, 0]]
+        # np_data = np.moveaxis(reshaped, -1, 0)
+        # preprocessed_numpy = [((np_data / 255.0) - 0.5) * 2]
+        # batch_tensor = np.stack(preprocessed_numpy, axis=0)
 
         # TODO: Inference OpenVINO
 
         # TODO: Calculate ratios
-        print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
+        # print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
 
         # TODO: in queue for moving the actuator 1
 
@@ -60,6 +63,8 @@ def thread_cam2(q):
     # TODO: ColorDetector
 
     # TODO: HW2 Open "resources/factory/conveyor.mp4" video clip
+    video_path = 'resources/factory/conveyor.mp4'  # 비디오 파일 경로
+    cap = cv2.VideoCapture(video_path)
 
     while not FORCE_STOP:
         sleep(0.03)
@@ -68,7 +73,7 @@ def thread_cam2(q):
             break
 
         # TODO: HW2 Enqueue "VIDEO:Cam1 live", frame info
-        q.put({"VIDEO:Cam2 live",frame})
+        q.put(("VIDEO:Cam2 live",frame))
         # TODO: Detect motion
 
         # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
@@ -76,7 +81,7 @@ def thread_cam2(q):
         # TODO: Detect color
 
         # TODO: Compute ratio
-        print(f"{name}: {ratio:.2f}%")
+        # print(f"{name}: {ratio:.2f}%")
 
         # TODO: Enqueue to handle actuator 2
 
@@ -106,7 +111,13 @@ def main():
     args = parser.parse_args()
 
     # TODO: HW2 Create a Queue
-    q= 모종의 방법
+    q= Queue()
+    thread1 = threading.Thread(target=thread_cam1, args= (q,))
+    thread2 = threading.Thread(target=thread_cam2, args= (q,))
+
+    thread1.start()
+    thread2.start()
+
     # TODO: HW2 Create thread_cam1 and thread_cam2 threads and start them.
 
     with FactoryController(args.device) as ctrl:
@@ -114,17 +125,25 @@ def main():
             if cv2.waitKey(10) & 0xff == ord('q'):
                 break
 
-            # TODO: HW2 get an item from the queue. You might need to properly handle exceptions.
+            # TODO: HW2 get an item from the     queue. You might need to properly handle exceptions.
             # de-queue name and data
-            data = q.모종의방법()
-            # TODO: HW2 show videos with titles of 'Cam1 live' and 'Cam2 live' respectively.
+            try: 
+                name, data = q.get(timeout=5)          
 
-            # TODO: Control actuator, name == 'PUSH'
+                # TODO: HW2 show videos with titles of 'Cam1 live' and 'Cam2 live' respectively.
+                imshow(name,data)
 
-            if name == 'DONE':
-                FORCE_STOP = True
+                # TODO: Control actuator, name == 'PUSH'
 
-            q.task_done()
+                # if name == 'DONE':
+                #     FORCE_STOP = True
+
+                q.task_done()
+                
+            except Empty:
+                pass
+        thread1.join()
+        thread2.join()
 
     cv2.destroyAllWindows()
 
@@ -134,3 +153,5 @@ if __name__ == '__main__':
         main()
     except Exception:
         os._exit()
+
+# %%
