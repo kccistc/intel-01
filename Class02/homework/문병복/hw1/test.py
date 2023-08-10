@@ -10,16 +10,24 @@ with FactoryController('/dev/ttyACM1') as ctrl:
     while answer != 'q':
         answer=input()
         if answer == '1':
-            ctrl.red = True
+            ctrl.red = FactoryController.DEV_ON
+            time.sleep(1)
+            ctrl.red = FactoryController.DEV_OFF
             print("red")
         elif answer == '2':
-            ctrl.orange = True
+            ctrl.orange = FactoryController.DEV_ON
+            time.sleep(1)
+            ctrl.orange = FactoryController.DEV_OFF
             print("orange")
         elif answer == '3':
-            ctrl.green = True
+            ctrl.green = FactoryController.DEV_ON
+            time.sleep(1)
+            ctrl.green = FactoryController.DEV_OFF
             print("green")
         elif answer == '4':
-            ctrl.conveyor = True
+            ctrl.conveyor = FactoryController.DEV_ON
+            time.sleep(1)
+            ctrl.conveyor = FactoryController.DEV_OFF
             print("conveyor")
         elif answer == '5':
             ctrl.push_actuator(1)
