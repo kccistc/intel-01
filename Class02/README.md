@@ -21,7 +21,7 @@
 | 김동성 (dongsungkim)    | O | ? | ? | ? | litcoder |
 | 장영주 (jangyoungjoo)   | O | O | ? | ? | litcoder |
 | 유요섭                  | O | ? | ? | ? | litcoder |
-| 김지원 (jiwon)          | X | O | ? | ? | litcoder |
+| 김지원 (jiwon)          | O | O | ? | ? | litcoder |
 | 이종윤 (jongyun)        | O | O | ? | ? | litcoder |
 | 엄기천 (kithousand)     | O | O | ? | ? | litcoder |
 | 임사랑 (Limsarang)      | O | ? | ? | ? | litcoder |
