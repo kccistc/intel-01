@@ -17,19 +17,19 @@
 | 이름 (디렉토리)           | HW#1 | HW#2 | HW#3 | 최종 파일 | Reviewer |
 |------------------------|------|------|------|----------|----------|
 | 조윤재 (24_yunjae_cho)  | O | O | ? | ? | litcoder |
-| 천동민 (CDM)            | O | O | ? | ? | litcoder |
-| 김동성 (dongsungkim)    | O | ? | ? | ? | litcoder |
-| 장영주 (jangyoungjoo)   | O | O | ? | ? | litcoder |
+| 천동민 (CDM)            | O | O | O | ? | litcoder |
+| 김동성 (dongsungkim)    | O | ? | O | ? | litcoder |
+| 장영주 (jangyoungjoo)   | O | O | O | ? | litcoder |
 | 유요섭                  | O | ? | ? | ? | litcoder |
 | 김지원 (jiwon)          | O | O | ? | ? | litcoder |
-| 이종윤 (jongyun)        | O | O | ? | ? | litcoder |
+| 이종윤 (jongyun)        | O | O | O | ? | litcoder |
 | 엄기천 (kithousand)     | O | O | ? | ? | litcoder |
-| 임사랑 (Limsarang)      | O | ? | ? | ? | litcoder |
-| 이세현 (Ish)            | O | O | ? | ? | litcoder |
+| 임사랑 (Limsarang)      | O | ? | O | ? | litcoder |
+| 이세현 (Ish)            | O | O | O | ? | litcoder |
 | 이정은 (leejeongeun)    | X | ? | ? | ? | litcoder |
-| 권오윤                  | O | O | ? | ? | litcoder |
+| 권오윤                  | O | O | O | ? | litcoder |
 | 문병복                  | O | O | ? | ? | JerryJLee |
-| 이원제                  | O | O | ? | ? | JerryJLee |
+| 이원제                  | O | O | O | ? | JerryJLee |
 | 한재욱                  | O | O | ? | ? | JerryJLee |
 | 문상원                  | X | X | ? | ? | JerryJLee |
 | 하종찬                  | O | O | ? | ? | JerryJLee |
