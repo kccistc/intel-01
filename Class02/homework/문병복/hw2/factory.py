@@ -16,9 +16,7 @@ FORCE_STOP = False
 
 
 def thread_cam1(q):
-    # TODO: MotionDetector
 
-    # TODO: Load and initialize OpenVINO
     cap = cv2.VideoCapture("./resources/factory/conveyor.mp4")
 
     while not FORCE_STOP:
@@ -28,23 +26,9 @@ def thread_cam1(q):
             break
 
         q.put({"VIDEO:Cam1 live": frame})
-        # TODO: Motion detect
 
-        # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
-
-        # abnormal detect
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        #reshaped = detected[:, :, [2, 1, 0]]
-        #np_data = np.moveaxis(reshaped, -1, 0)
-        #preprocessed_numpy = [((np_data / 255.0) - 0.5) * 2]
-        #batch_tensor = np.stack(preprocessed_numpy, axis=0)
 
-        # TODO: Inference OpenVINO
-
-        # TODO: Calculate ratios
-        #print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
-
-        # TODO: in queue for moving the actuator 1
 
     cap.release()
     q.put(('DONE', None))
@@ -52,10 +36,7 @@ def thread_cam1(q):
 
 
 def thread_cam2(q):
-    # TODO: Motion Detector
-
-    # TODO: ColorDetector
-    
+   
     
     cap = cv2.VideoCapture("./resources/factory/conveyor.mp4")
     while not FORCE_STOP:
@@ -66,16 +47,6 @@ def thread_cam2(q):
 
         q.put({"VIDEO:Cam2 live": frame})
         
-        # TODO: Detect motion
-
-        # TODO: Enqueue "VIDEO:Cam1 detected", detected info.
-
-        # TODO: Detect color
-
-        # TODO: Compute ratio
-        #print(f"{name}: {ratio:.2f}%")
-
-        # TODO: Enqueue to handle actuator 2
 
     cap.release()
     q.put(('DONE', None))
@@ -125,12 +96,11 @@ def main():
                 else:
                     break  
             except Empty:
-                continue  
+                break  
 
             if name == 'VIDEO:Cam1 live' or name == 'VIDEO:Cam2 live':
                 imshow(name, data)
 
-            # TODO: Control actuator, name == 'PUSH'
 
             if name == 'DONE':
                 FORCE_STOP = True
