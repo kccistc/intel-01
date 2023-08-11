@@ -28,18 +28,18 @@
 | 이세현 (Ish)            | O | O | O | ? | litcoder |
 | 이정은 (leejeongeun)    | X | ? | ? | ? | litcoder |
 | 권오윤                  | O | O | O | ? | litcoder |
-| 문병복                  | O | O | O | ? | JerryJLee |
+| 문병복                  | O | O | O | O | JerryJLee |
 | 이원제                  | O | O | O | ? | JerryJLee |
-| 한재욱                  | O | O | O | ? | JerryJLee |
-| 문상원                  | X | X | O | ? | JerryJLee |
+| 한재욱                  | O | O | O | O | JerryJLee |
+| 문상원                  | X | X | O | O | JerryJLee |
 | 하종찬                  | O | O | X | ? | JerryJLee |
 | 유승범                  | O | X | X | ? | JerryJLee |
-| 임재환 (excelsior19999) | X | X | X | ? | JerryJLee |
-| 정해영                  | X | O | O | ? | JerryJLee |
-| 김준호 (jun-ho-kim)     | O | O | O | ? | JerryJLee |
+| 임재환 (excelsior19999) | O | O | O | O | JerryJLee |
+| 정해영                  | X | O | O | O | JerryJLee |
+| 김준호 (jun-ho-kim)     | O | O | O | O | JerryJLee |
 | 이송이                  | X | X | X | ? | JerryJLee |
-| 박지훈                  | X | O | O | ? | JerryJLee |
-| 김정균                  | X | O | O | ? | JerryJLee |
+| 박지훈                  | X | O | O | O | JerryJLee |
+| 김정균                  | X | O | O | O | JerryJLee |
 
 
 ## Team project
