@@ -16,7 +16,7 @@ Smart factory 불량 분류모델 training 결과
 ## Training 결과
 |Classification model|Accuracy|FPS|Training time|Batch size|Learning rate|Other prams|
 |----|----|----|----|----|----|----|
-|EfficientNet-V2-S|1|3.96|1분 9초|8|0.0071|기본값|
+|EfficientNet-V2-S|1|3.96|1분 9초|0.0071|8|기본값|
 |EfficientNet-B0| 1|8.27|18초|0.0049|16|기본값|
 |DeiT-Tiny|1|45초|64|11.7|64|기본값|
 |MobileNet-V3-large-1x|1|7.7|13초|0.0058|16|기본값|
