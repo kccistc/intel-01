@@ -24,7 +24,7 @@ EfficientNet-V2-S 모델을 otx train 명령 후 진행이 안되서 생략했�
 ```
 hello_classification.py 파일의 main 함수에서
 함수 시작 s = time.time() 
-함수  끝 q = time.time() -q 
+함수  끝 q = time.time() -s 
 print(f' fps : {1/q} ')
 로 fps 를 측정했습니다.
 ```
