@@ -61,3 +61,16 @@
 
 #### 뭔가 대단히 보이는 프로젝트
   * Repository: https://github.com/litcoder/.emacs.d
+
+### Team: 나지금필(Pill)받았어
+#### Members
+
+| Name    | Role                                                                |
+|---------|--------------------------------------------------------------------|
+| 하종찬   | Project leadear: 공모전 책임진다.                                         |
+| 한재욱   | Board developer, chearleader: 팀내 뒹굴기와 응원을 담당한다.    |
+| 문상원   | AI programmer: 팀내 개발을 담당한다.    |
+| 엄기천   | Backend engineer, 물주: 프로그램 동작 알고리즘을 구현한다.    |
+
+#### 재활공모전 프로젝트
+  * Repository: https://github.com/JongChanHa/Intel_project_team_HJC.git
