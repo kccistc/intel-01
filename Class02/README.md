@@ -61,3 +61,19 @@
 
 #### 뭔가 대단히 보이는 프로젝트
   * Repository: https://github.com/litcoder/.emacs.d
+
+---
+### Team_4: SystemError
+
+### Members
+
+| Name   | Role                           |
+| ------ | ------------------------------ |
+| 김동성 | Raspberry Pi Client, H/W build |
+| 김지원 | H/W Control, MCU               |
+| 김준호 | Linux Server, GUI              |
+| 장영주 | AI Model Training              |
+| 조윤재 | Linux Server, GUI              |
+
+#### AI Turret
+  * Repository: https://github.com/goolat/AI_Turret
