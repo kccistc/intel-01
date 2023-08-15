@@ -42,14 +42,22 @@
 | 김정균                  | X | O | O | O | JerryJLee |
 
 
-## Team project
+## Team projects
+
+### Team 1: 떡잎마을 방범대
+| Name | Role |
+|----|----|
+| 임지환 (C) | AI Model |
+| 문병복 | AI Model |
+| 김정균 | GUI & Server |
+| 정해영 | GUI & Server |
+| 유요섭 | GUI & Server, AI Model |
+
+#### Project
+ * Repository: https://github.com/excelsior19999/KCCI_Team_1
 
 
-
-### Team_4: SystemError
-
-### Members
-
+### Team 4: SystemError
 | Name   | Role                           |
 | ------ | ------------------------------ |
 | 김동성 | Raspberry Pi Client, H/W build |
@@ -62,10 +70,7 @@
   * Repository: https://github.com/goolat/AI_Turret
 
 
-
 ### Team 5: 이응
-#### Members
-
 |Name|Role|
 |-|-|
 |이원제|서버 구축, 발표|
