@@ -61,3 +61,22 @@
 
 #### 뭔가 대단히 보이는 프로젝트
   * Repository: https://github.com/litcoder/.emacs.d
+
+---
+
+### Team 5: 이응
+#### Members
+
+|Name|Role|
+|-|-|
+|이원제|서버 구축, 발표|
+|권오윤|3D 모델링, MCU 설계|
+|이송이|AI 모델 학습|
+|이정은|Mbed 개발|
+|임사랑|Mbed 개발|
+
+#### Project
+  * Repository: https://github.com/vesper0/ing
+
+  ---
+  
