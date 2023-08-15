@@ -75,7 +75,7 @@ def thread_cam2(q):
         # TODO: Detect color
 
         # TODO: Compute ratio
-        print(f"{name}: {ratio:.2f}%")
+        #print(f"{name}: {ratio:.2f}%")
 
         # TODO: Enqueue to handle actuator 2
 
