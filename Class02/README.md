@@ -44,25 +44,24 @@
 
 ## Team project
 
-```
-//TODO: REMOVEME in final release
-// 아래는 예시입니다. Team project 정보를 기입해 주세요.
-```
 
-### Team: 뭔가 센스있는 팀명
-#### Members
 
-| Name    | Role                                                                |
-|---------|--------------------------------------------------------------------|
-| 가렌     | Project lead: 망하면 책임진다.                                         |
-| 징크스    | Architect: 전체 소프트웨어 구조를 구성하고 상위 레벨 설계 문서(HLD)를 작성한다. |
-| 이즈리얼  | Lead programmer: 아키텍트가 그려놓은 HLD를 구체화 하고 구현한다.            |
-| 모르가나  | Programmer, 물주: 프로그램을 구현하고, 야식과 교통비를 책임진다.              |
+### Team_4: SystemError
 
-#### 뭔가 대단히 보이는 프로젝트
-  * Repository: https://github.com/litcoder/.emacs.d
+### Members
 
----
+| Name   | Role                           |
+| ------ | ------------------------------ |
+| 김동성 | Raspberry Pi Client, H/W build |
+| 김지원 | H/W Control, MCU               |
+| 김준호 | Linux Server, GUI              |
+| 장영주 | AI Model Training              |
+| 조윤재 | Linux Server, GUI              |
+
+#### AI Turret
+  * Repository: https://github.com/goolat/AI_Turret
+
+
 
 ### Team 5: 이응
 #### Members
@@ -78,5 +77,3 @@
 #### Project
   * Repository: https://github.com/vesper0/ing
 
-  ---
-  
