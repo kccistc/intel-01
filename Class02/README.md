@@ -81,6 +81,13 @@
 
 #### AI Turret
   * Repository: https://github.com/goolat/AI_Turret
+  * Reference for License Plate Recognition:
+    ```
+    git clone https://github.com/openvinotoolkit/training_extensions.git
+    cd training_extensions
+    git checkout misc
+    cd misc/tensorflow_toolkit/lpr
+    ```
 
 
 ### Team 5: 이응
