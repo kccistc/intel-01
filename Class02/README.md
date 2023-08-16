@@ -57,8 +57,20 @@
  * Repository: https://github.com/excelsior19999/KCCI_Team_1
 
 
-### Team 3: Paybag
 
+### Team 2: 나지금필(Pill)받았어
+| Name    | Role                                                                |
+|---------|--------------------------------------------------------------------|
+| 하종찬   | Project leadear: 공모전 책임진다.                                         |
+| 한재욱   | Board developer, chearleader: 팀내 뒹굴기와 응원을 담당한다.    |
+| 문상원   | AI programmer: 팀내 개발을 담당한다.    |
+| 엄기천   | Backend engineer, 물주: 프로그램 동작 알고리즘을 구현한다.    |
+
+#### 재활공모전 프로젝트
+  * Repository: https://github.com/JongChanHa/Intel_project_team_HJC.git
+
+
+### Team 3: Paybag
 | Name   | Role                           |
 | ------ | ------------------------------ |
 | 박지훈 | AI Model Training |
@@ -69,6 +81,8 @@
 
 #### Paybag
  * Repository: https://github.com/Miniismini/kcci_intel_AI_project
+
+
 
 ### Team 4: SystemError
 | Name   | Role                           |
@@ -101,4 +115,3 @@
 
 #### Project
   * Repository: https://github.com/vesper0/ing
-
