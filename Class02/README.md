@@ -87,14 +87,14 @@
 ### Team 4: SystemError
 | Name   | Role                           |
 | ------ | ------------------------------ |
-| 김동성 | Raspberry Pi Client, H/W build |
-| 김지원 | H/W Control, MCU               |
-| 김준호 | Linux Server, GUI              |
-| 장영주 | AI Model Training              |
-| 조윤재 | Linux Server, GUI              |
+| 김동성 | Client, H/W |
+| 김지원 | H/W, MCU               |
+| 김준호 | Server, GUI              |
+| 장영주 | AI             |
+| 조윤재 | Server, GUI              |
 
-#### AI Turret
-  * Repository: https://github.com/goolat/AI_Turret
+#### Repository
+  * https://github.com/goolat/CaughtYouBastard
   * Reference for License Plate Recognition:
     ```
     git clone https://github.com/openvinotoolkit/training_extensions.git
@@ -102,6 +102,7 @@
     git checkout misc
     cd misc/tensorflow_toolkit/lpr
     ```
+
 
 
 ### Team 5: 이응
