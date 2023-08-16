@@ -47,7 +47,7 @@
 ### Team 1: 떡잎마을 방범대
 | Name | Role |
 |----|----|
-| 임지환 (C) | AI Model |
+| 임재환 (C) | AI Model |
 | 문병복 | AI Model |
 | 김정균 | GUI & Server |
 | 정해영 | GUI & Server |
