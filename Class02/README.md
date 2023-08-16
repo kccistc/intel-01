@@ -57,6 +57,19 @@
  * Repository: https://github.com/excelsior19999/KCCI_Team_1
 
 
+### Team 3: Paybag
+
+| Name   | Role                           |
+| ------ | ------------------------------ |
+| 박지훈 | AI Model Training |
+| 유승범 | Firmware & H/W Control |
+| 이세현 | GUI & Server |
+| 이종윤 | Firmware & H/W Control |
+| 천동민 | Firmware & H/W Control |
+
+#### Paybag
+ * Repository: https://github.com/Miniismini/kcci_intel_AI_project
+
 ### Team 4: SystemError
 | Name   | Role                           |
 | ------ | ------------------------------ |
